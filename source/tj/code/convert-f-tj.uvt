@@ -1,0 +1,5 @@
+PIP PACKAGE
+pip install PyQt6 psutil pyinstaller
+
+PYINSTALLER
+pyinstaller --noconsole --onefile --icon=tj-icon-ori.ico --add-data "tj-icon-ori.ico;." --add-data "IMG_0678.jpeg;." TrollJector.py
